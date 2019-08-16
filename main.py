@@ -1,5 +1,6 @@
 from tkinter import *
 from controllers import *
+import time
 
 window = Tk()
 time1 = ''
