@@ -1,4 +1,5 @@
 # TimePause
- A program that makes you take a 10 minutes break each hour!<br>
- A simple Python program that blocks the keyboard input of your computer for 10 minutes at an interval of one hour and displays the message "It's time for a break!" and the countdown of time remaining until you can restart working<br>
- Technology's used: Python 3, Tkinter
+ A program that makes you take a break each hour!<br>
+ A simple Python program that locks the computer  at an interval of one hour and displays the message "It's time for a break!"<br>
+ Technology's used: Python 3, Tkinter<br>
+ VCS: git version 2.17.1
