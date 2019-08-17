@@ -2,8 +2,6 @@ import os
 import platform
 import subprocess
 
-from tkinter import *
-
 def startProgram():
     popMsg()
     if platform.system() == "Linux":
