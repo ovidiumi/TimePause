@@ -7,7 +7,7 @@ def startProgram():
     if platform.system() == "Linux":
         subprocess.call("xdg-screensaver lock", shell = True)
     elif platform.system() == "Windows":
-        subprocess.call("xrundll32.exe user32.dll, LockWorkStation", shell = True)
+        subprocess.call("rundll32.exe user32.dll, LockWorkStation", shell = True)
     elif platform.system() == "Darwin":
         subprocess.call('tell application "System Events" to log out', shell = True)
     else:
